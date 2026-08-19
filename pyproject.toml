@@ -1,0 +1,17 @@
+[project]
+name = "railconnect-reservationbookingsystem"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chandan-aiops>=1.5.5",
+    "fastapi>=0.141.1",
+    "gradio>=6.24.0",
+    "ipykernel>=7.3.0",
+    "joblib>=1.5.3",
+    "pydentic>=0.0.1.dev3",
+    "sqlalchemy>=2.0.52",
+    "streamlit>=1.61.1",
+    "uvicorn>=0.52.4",
+]
