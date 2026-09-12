@@ -1,1 +1,5 @@
-sqlite3
+fastapi
+streamlit
+n8n
+docker
+chandan-aiops

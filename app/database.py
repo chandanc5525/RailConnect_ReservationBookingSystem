@@ -9,7 +9,7 @@ DATA_DIR = BASE_DIR / "data"
 DATA_DIR.mkdir(exist_ok=True)
 DB_PATH = DATA_DIR / "railway.db"
 
-
+# Function Definition
 def create_database():
 
     connection = sqlite3.connect(DB_PATH)
@@ -63,5 +63,5 @@ def create_database():
     print("Database created successfully!")
 
 
-
+# Function Calling
 create_database()
